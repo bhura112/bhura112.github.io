@@ -1,0 +1,72 @@
+div.page-content {
+   
+    background-color: rgb(182, 182, 182);
+
+}
+
+div.top-banner {
+    background: #D3959B;  /* fallback for old browsers */
+    background: linear-gradient(to right,rgb(116, 195, 231), rgb(104, 33, 73));
+    position: fixed;
+    width: 100%;
+    transition: 0.2s;
+}
+div.top-banner div.row{
+    width: 80%;
+    min-height: 200px;
+    margin:auto;
+}
+div.top-banner div.row div.col-num-1 {
+    padding:10px 0px;
+}
+
+div.top-banner div.row div.col-num-1 div.title-section{
+ //   background-color: darkturquoise;
+    display: flex;
+    padding:30px 30px;
+}
+div.top-banner div.row div.col-num-1 div.title-section div.title-section-details{
+//background-color: rgb(207, 178, 114);
+display: flex;
+flex-direction: column;
+flex-grow: 1.5;
+padding: 20px 30px;
+}
+div.top-banner div.row div.col-num-1 div.title-section 
+div.title-section-details h1.title-name{
+//background-color: rgb(118, 197, 118);
+flex-grow: 1;
+}
+div.top-banner div.row div.col-num-1 div.title-section
+ div.title-section-details div.title-tab{
+//background-color: rgb(97, 160, 185);
+display: flex;
+flex-direction: row;
+flex-wrap: no;
+border-bottom:2px solid #875987;
+}
+div.top-banner div.row div.col-num-1 div.title-section
+ div.title-section-details div.title-tab a{
+     color: rgb(214, 211, 211);
+     font-size: 24px;
+     padding: 16px 24px;
+ }
+
+ div.top-banner div.row div.col-num-1 div.title-section
+ div.title-section-details div.title-tab i{
+     color: rgb(214, 211, 211);
+     font-size: 24px;
+ }
+ div.top-banner div.row div.col-num-1 div.title-section
+ div.title-section-details div.title-tab a:hover{
+     background-color: lightcoral;
+ }
+div.top-banner div.row div.title-description {
+    padding: 16px 24px;
+//background-color: darkgray;
+}
+
+div.top-banner div.row div.title-description p{
+    font-size: 12px;
+    transition: 0.5s;
+}
