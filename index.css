@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+.header {
+  font-weight: bold;
+  font-size: 3vh;
+}
+.header-nav {
+  display: flex;
+  padding: 20px 40px;
+}
+
+.header-nav .domain-name {
+  flex-grow: 2;
+  padding: 2px;
+  display: flex;
+}
+.header-nav .domain-name a.name {
+  text-decoration-color: tan;
+}
+.header-nav .topics-name {
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-end;
+}
+.header-nav .topics-icon {
+  display: none;
+}
+.header-nav .topics-icon div.line {
+  border-bottom: 3px solid black;
+  width: 25px;
+  height: 1px;
+  padding: 3px 0px;
+}
+.header-nav .topics-name li {
+  flex-grow: 1;
+  display: flex;
+}
+
+@media only screen and (max-width:768px) {
+  .header-nav .topics-name {
+    display: none;
+  }
+  .header-nav .topics-icon {
+    display: block;
+  }
+
+  /******/
+  .main .pageIntro {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .main .pageIntro .lside {
+    padding: 0;
+  }
+}
+/******************/
+.main {
+}
+
+.main .pageIntro {
+  display: flex;
+  justify-content: space-around;
+  padding: 6vh 6vh;
+}
+
+.main .pageIntro .lside {
+  padding: 3vh 15vh;
+}
+.main .pageIntro .lside h2 {
+  font-size: 4vh;
+}
+.main .pageIntro .lside h4 {
+  font-size: 2vh;
+  padding: 5vh 0vh;
+  line-height: 5vh;
+}
+.main .pageIntro .lside p {
+  color: gray;
+  font-size: 2vh;
+}
+.main .pageIntro .lside form {
+background-color: ivory;
+}
+form {
+    width: 100%;
+    position: relative;
+    height: 10vh;
+    overflow: hidden;
+}
+form input {
+    width: 100%;
+    height: 100%;
+    border:none;
+    padding-top: 5vh;
+    outline:none;
+   
+}
+form label {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    pointer-events: none;
+    border-bottom: 1px solid black;
+}
+form label::after {
+ content: "";
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ border-bottom: 3px solid #5fa8d3;
+ left: 0;
+ bottom: 0px;
+ transform: translate(-100%); 
+ transition: all 1s ease-in-out;
+}
+form label .content-name{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 1s ease-in-out;
+}
+form input:focus + .label-name .content-name,form input:valid + .label-name .content-name {
+    transform: translateY(-150%);
+    color: #5fa8d3;
+}
+form input:focus + .label-name::after,
+form input:valid + .label-name::after {
+    transform: translateX(0%);
+}
+.main .pageIntro .rside {
+}
+
+.main .pageIntro .rside img {
+  width: 70vh;
+  height: auto;
+}
+
