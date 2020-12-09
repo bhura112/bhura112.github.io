@@ -171,7 +171,9 @@ form input:valid + .label-name::after {
   .nav-menu {
     justify-content: space-between;
   }
-
+  .pIntroSection{
+    flex-direction: column;;
+  }
   .nav-menu .nav-cname {
 
     font-size: 0.8rem;
