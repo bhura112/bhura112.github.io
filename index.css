@@ -39,10 +39,11 @@ body {
 .nav {
   padding: 0.2rem;
   height: 0;
-  min-height: 22vh;
+  min-height: 15vw;
   overflow: hidden;
   font-weight: bold;
   position: relative;
+  padding:20px 20px;
 }
 
 .nav-menu {
@@ -97,6 +98,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items:center;
+  padding: 40px 0px;
 }
 
 .pIntroSection-Details {
@@ -108,11 +110,11 @@ body {
 }
 .pIntroSection-Details h5,form{
   padding:10px 30px;
-  line-height: 2vh;
+  line-height: 5vh;
 }
 
 .pIntroSection-Etc img{
-   width: 50vh;
+   width: 30vw;
 }
 .form {
   padding:10px 30px;
