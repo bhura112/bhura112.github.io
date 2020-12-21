@@ -128,6 +128,11 @@ width:35rem;
         display: block;
         padding: 5px 0px;
     }
+    .main-section {
+        width: 100%;
+        margin: 0;
+        padding:0;
+    }
     .web-banner-subscription {
     flex-direction: column;
     }
