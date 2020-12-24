@@ -28,6 +28,15 @@ div.sticky {
     padding: 50px;
     font-size: 20px;
   }
+
+  div.sticky2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 120px;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 20px;
+  }
 .shadow {
     box-shadow: 0px 10px 5px #27272780;
     -webkit-box-shadow: 0px 10px 5px #27272780;
@@ -135,7 +144,6 @@ div.sticky {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  //background-color:lightblue;
 }
 .web-banner-left {
   padding: 2rem 1rem;
@@ -217,7 +225,7 @@ p {
   }
 }
 .line1-anim {
-    transform: translateX(4px) translateY(10px) rotate(45deg);
+    transform: translateX(4px) translateY(12px) rotate(45deg);
     transition: all 0.5s ease-out;
     color: white;
   }
@@ -230,3 +238,35 @@ p {
   .line3-anim {
     opacity: 0;
   }
+form {
+  display: flex;
+  flex-flow: row nowrap;
+  font-weight: bolder;
+}
+  input[type="text"] {
+    width: 200px;
+    padding-right: 50px;
+    border :0;
+    border: 3px solid slategray;
+    padding: 10px;
+    outline: none;
+    font-weight: bolder;
+    flex-grow: 1;
+}
+input[type="text"]:active {
+ 
+}
+button {
+    margin-left: -6px;
+    padding: 10px;
+    width: 6rem;
+    background:slategray;
+    color: white;
+    border: 0;
+    -webkit-appearance: none;
+    outline: none;
+    font-weight: bolder;
+}
+button:hover {
+background-color: rgb(34, 44, 54);
+}
