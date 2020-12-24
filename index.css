@@ -20,23 +20,7 @@ a {
   text-decoration: none;
   color: black;
 }
-div.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 70px;
-    background-color: yellow;
-    padding: 50px;
-    font-size: 20px;
-  }
 
-  div.sticky2 {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 120px;
-    background-color: yellow;
-    padding: 50px;
-    font-size: 20px;
-  }
 .shadow {
     box-shadow: 0px 10px 5px #27272780;
     -webkit-box-shadow: 0px 10px 5px #27272780;
@@ -133,12 +117,12 @@ div.sticky {
 }
 
 .head-end {
-  padding: 2rem 0px;
+  padding: 3rem 0px;
 }
 
 .main-section {
   width: 80%;
-  margin: 1rem auto;
+  margin: 0px auto;
 }
 .web-banner-subscription {
   display: flex;
@@ -161,10 +145,77 @@ div.sticky {
 .web-banner-right h2,
 h3,
 p {
-  padding: 3rem 0px;
+  padding: 1.5rem 0px;
 }
 .web-banner-right img {
-  width: 30rem;
+  width: 20rem;
+}
+.course-container {
+  margin:10px auto ;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  //background-color: rgb(195, 202, 182);
+  padding: 20px 0px;
+}
+
+.course-container .mcu-course-card,
+.rtos-course-card,
+.linux-course-card,
+.qt-course-card,
+.more-course-card
+{
+  min-width: 150px;
+  min-height: 200px;
+  background-color: teal;
+  margin: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.course-container .mcu-course-card,
+.rtos-course-card,
+.linux-course-card,
+.qt-course-card,
+.more-course-card p
+{
+  font-size: 1rem;
+}
+.content-card-container .mcu-content,.rtos-content,.linux-content,.qt-content {
+
+     width: 100%;
+     position: -webkit-sticky;
+     position: sticky;
+     top:-1px;
+     padding: 0;
+     padding-top: calc(1em + 60px); 
+     text-align: center;  
+}
+.content-card-container .mcu-content h4{
+ background-color: tan;
+ padding: 20px;
+
+}
+.content-card-container .rtos-content h4{
+  background-color: rgb(140, 190, 210);
+  padding: 20px;
+}
+.content-card-container .linux-content h4{
+  background-color: rgb(88, 3, 138);
+  padding: 20px;
+}
+.content-card-container .qt-content h4{
+  background-color: rgb(65, 255, 160);
+  padding: 20px;
+}
+
+.is-pinned {
+  box-shadow: 0px 10px 5px #27272780;
+  -webkit-box-shadow: 0px 10px 5px #27272780;
+  -moz-box-shadow: 0px 10px 5px #27272780;
+ 
 }
 @media only screen and (max-width: 767px) {
   .main-head {

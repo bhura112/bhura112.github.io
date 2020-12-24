@@ -33,10 +33,8 @@ function loadScript()
         window.addEventListener('scroll',function(){    
                 if(window.pageYOffset > 100)
                 {
-                       console.log(document.body.scrollTop);
                         if(!header.classList.contains('shadow'))
                         {
-                                console.log("aa");
                                 header.classList.add('shadow');
                         }
                 }
@@ -47,6 +45,25 @@ function loadScript()
         });
 }
 
-loadScript();
+function pageContentJavaScript()
+{
+        const el1 = document.querySelector(".mcu-content");
+        const el2 = document.querySelector(".rtos-content");
+        const el3 = document.querySelector(".linux-content");
+        const el4 = document.querySelector(".qt-content");
 
+        const observer = new IntersectionObserver( 
+          ([e]) => e.target.classList.toggle("is-pinned", e.intersectionRatio < 1),
+          { threshold: [1] }
+        );
+        
+        observer.observe(el1);
+        observer.observe(el2);
+        observer.observe(el3);
+        observer.observe(el4);
+}
+
+
+loadScript();
+pageContentJavaScript();
 
