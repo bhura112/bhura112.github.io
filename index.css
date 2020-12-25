@@ -150,39 +150,81 @@ p {
 .web-banner-right img {
   width: 20rem;
 }
-.course-container {
-  margin:10px auto ;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  //background-color: rgb(195, 202, 182);
-  padding: 20px 0px;
-}
+/*********************************************************************/
 
-.course-container .mcu-course-card,
+.course-container {
+ padding:3rem 0rem 0rem 0rem;
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-between;
+ align-items: center;
+ //background-color: tomato;
+ 
+}
+.card {
+  flex: 1;
+  padding:20px  40px;
+  min-width: 250px;
+}
+.mcu-course-card,
 .rtos-course-card,
 .linux-course-card,
-.qt-course-card,
-.more-course-card
-{
-  min-width: 150px;
-  min-height: 200px;
-  background-color: teal;
-  margin: 20px;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-around;
-  align-items: center;
+.qt-course-card {
+  box-shadow: 0px 10px 5px #27272780;
+  -webkit-box-shadow: 0px 10px 5px #27272780;
+  -moz-box-shadow: 0px 10px 5px #27272780;
+  z-index: 999999;
+
+
 }
-.course-container .mcu-course-card,
-.rtos-course-card,
-.linux-course-card,
-.qt-course-card,
-.more-course-card p
-{
-  font-size: 1rem;
+.mcu-course-card:hover,
+.rtos-course-card:hover,
+.linux-course-card:hover,
+.qt-course-card:hover { 
+
+  transform: scale(1.02);
+  
 }
+.mcu-course-card .head,
+.rtos-course-card .head,
+.linux-course-card .head,
+.qt-course-card .head{
+  background-color:#1C3177;
+  font-size: .9rem;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  border-radius: 5% 5% 0% 0%;
+  width: 100%;
+}
+.mcu-course-card .content,
+.rtos-course-card .content,
+.linux-course-card .content,
+.qt-course-card .content{
+  font-size: .7rem;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  padding: 15px;
+  background-color:rgb(30, 38, 58);
+  width: 100%;
+}
+.mcu-course-card .foot,
+.rtos-course-card .foot,
+.linux-course-card .foot,
+.qt-course-card .foot{
+  font-size: .8rem;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  background-color:#FF78B4;
+  padding: 5px;
+  width: 100%;
+}
+ .foot:hover{ 
+  background-color: rgb(97, 103, 109);
+}
+/*******************************************************************/
 .content-card-container .mcu-content,.rtos-content,.linux-content,.qt-content {
 
      width: 100%;
