@@ -316,6 +316,17 @@ p {
   .web-banner-right img {
     width: 10rem;
   }
+  .content  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .content .content-flex img{
+  background-color: black;
+  opacity: .1;
+  }
 }
 .line1-anim {
     transform: translateX(4px) translateY(12px) rotate(45deg);
@@ -362,4 +373,8 @@ button {
 }
 button:hover {
 background-color: rgb(34, 44, 54);
+}
+
+#robo_face{
+  background-color: blanchedalmond;
 }
