@@ -1,5 +1,7 @@
 function loadScript()
 {
+
+
         var header = document.querySelector(".main-head");
         var main = document.querySelector(".main-section");
         var menuIcon = document.querySelector(".head-menu-icon");
@@ -8,10 +10,9 @@ function loadScript()
         var line1 = document.querySelector(".icon-line1");
         var line2 = document.querySelector(".icon-line2");
         var line3 = document.querySelector(".icon-line3");
+
+
         menuIcon.onclick = function() { 
-
-                
-
              if(headLinks.style.display == 'none') {
                     headNav.classList.add("head-nav-clicked");
                     line1.classList.add("line1-anim");

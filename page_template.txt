@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global/header.css">
+    <link rel="stylesheet" href="global/foot.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Home</title>
+</head>
+<body>
+    <header class="header">
+
+    </header>
+
+    <footer class="footer">
+
+    </footer>
+</body>
+<script src="script.js"></script>
+<script src="global/headerScript.js"></script>
+<script src="global/footerScript.js"></script>
+<script src="https://kit.fontawesome.com/2197d61e3b.js" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/2197d61e3b.js" crossorigin="anonymous"></script>
+    <title>Main.c</title>
+</head>
+
+<body>
+    <div class="main-head">
+
+        <ul class="head-nav-home">
+            <li><a href="#" class="home">BWeb</a></li>
+        </ul>
+
+        <nav class="head-nav">
+            <div class="head-menu-icon">
+                <ul>
+                    <li class="icon-line1"></li>
+                    <li class="icon-line2"></li>
+                    <li class="icon-line3"></li>
+                </ul>
+            </div>
+
+            <ul class="head-nav-links">
+                <li class="dropdown">
+                    <a href="#">MCU</a>
+                    <ul class="mega-sub">
+                        <li><a href="#" class="ATMEL">ATMEL</a></li>
+                        <li><a href="#" class="PIC">PIC</a></li>
+                        <li><a href="#" class="ARM">ARM</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="home">RTOS</a></li>
+                <li><a href="#" class="home">LINUX</a></li>
+                <li><a href="#" class="home">Qt</a></li>
+            </ul>
+        </nav>
+
+
+    </div>
+    <div class="head-end"></div>
+
+    <div class="main-section">
+
+        <div class="web-banner-subscription">
+            <div class="web-banner-left">
+                <h4>Learn To Code <br />For Free</h4>
+                <p>Learn to code with our beginner-friendly tutorials and <br />examples. Read tutorials, try examples,
+                    write programs, <br />and learn to code.</p>
+                <h6>Get the latest tutorials and updates</h6>
+                <form method="post" action="#">
+                    <input type="text" class="input" name="mail-input" placeholder="Enter your email..." required />
+                    <button type="submit" name="submit">Subscribe </button>
+                </form>
+            </div>
+            <div class="web-banner-right">
+                <img src="images/Astronaut.svg" />
+            </div>
+        </div>
+
+
+        <div class="course-container">
+            <div class="card">
+                <div class="mcu-course-card">
+                    <div class="head">
+                        <p>Micro Controllers</p>
+                    </div>
+                    <div class="content">Learn <br>Micro<br>Controllers</div>
+                    <div class="foot"><a href="mcu/">Start Learning <i class="fa fa-arrow-circle-right"
+                                aria-hidden="true"></i></a></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="rtos-course-card">
+                    <div class="head">
+                        <p>RTOS</p>
+                    </div>
+                    <div class="content">Learn <br>RTOS<br>System</div>
+                    <div class="foot"><a href="rtos/">Start Learning <i class="fa fa-arrow-circle-right"
+                                aria-hidden="true"></i></a></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="rtos-course-card">
+                    <div class="head">
+                        <p>Linux</p>
+                    </div>
+                    <div class="content">Learn <br>Linux<br>System</div>
+                    <div class="foot"><a href="linux/">Start Learning <i class="fa fa-arrow-circle-right"
+                                aria-hidden="true"></i></a></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="qt-course-card">
+                    <div class="head">
+                        <p>Qt</p>
+                    </div>
+                    <div class="content">Learn <br>Qt<br>Framework</div>
+                    <div class="foot"><a href="qt/">Start Learning <i class="fa fa-arrow-circle-right"
+                                aria-hidden="true"></i></a></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="content-card-container">
+        <div class="mcu-content">
+            <h4>Embedded Systems </h4>
+        </div>
+        <div class="content">
+            <br />
+            <h6>An embedded system is a microprocessor-based computer hardware system with software that is designed to
+                perform a dedicated function, either as an independent system or as a part of a large system. At the
+                core is an integrated circuit designed to carry out computation for real-time operations.</h6>
+            <p>An embedded application is software that is placed permanently inside some kind of device to perform a
+                very specific set of functions. Some small embedded applications like those in a microwave oven do not
+                need an operating system (OS) to control them. Other, more complex, devices like entertainment systems
+                that control hundreds of different channels and need to record and play videos from a variety of
+                devices, will need an OS to manage the resources of the embedded system in real time. Real Time Embedded
+                Systems include things like GPS Navigation systems, industrial robots, traffic monitoring systems, smart
+                phones, and smart TVs.</p>
+            <p>A microcontroller (MCU for microcontroller unit) is a small computer on a single
+                metal-oxide-semiconductor (MOS) integrated circuit (IC) chip. A microcontroller contains one or more
+                CPUs (processor cores) along with memory and programmable input/output peripherals</p>
+        </div>
+    </div>
+
+    <div class="content-card-container">
+        <div class="rtos-content">
+            <h4>Real Time Operating System </h4>
+        </div>
+        <div class="content">
+            <br />
+            <h6>Real-time operating system (RTOS) is an operating system intended to serve real time application that
+                process data as it comes in, mostly without buffer delay. The full form of RTOS is Real time operating
+                system.
+
+                In a RTOS, Processing time requirement are calculated in tenths of seconds increments of time. It is
+                time-bound system that can be defined as fixed time constraints. In this type of system, processing must
+                be done inside the specified constraints. Otherwise, the system will fail.</h6>
+
+            <p>Many embedded systems require real-time behavior, and due to hardware resource constraints, performance
+                and efficiency are top priorities. An RTOS provides the rigorous resource management and scheduling
+                required to meet the demands of applications– with multitasking, threads, priority-driven preemptive
+                scheduling, and fast context-switching — all essential features of an embedded real-time system.
+                <br />
+                An RTOS typically has a small footprint and is optimized for performance, however each RTOS must be
+                customized with capabilities needed for the hardware and system it supports. From a bare-bones kernel
+                configuration managing a small number of tasks, to a full-functionality RTOS managing hundreds of tasks
+                and subsystems including graphics, networking, filesystem, audio and more – an RTOS should flexibly
+                scale to address system requirements and resources.
+            </p>
+        </div>
+    </div>
+
+    <div class="content-card-container">
+        <div class="linux-content">
+            <h4>Linux </h4>
+        </div>
+        <div class="content">
+            <br />
+            <h6>Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one of the most popular
+                platforms on the planet, Android, is powered by the Linux operating system. An operating system is
+                software that manages all of the hardware resources associated with your desktop or laptop. To put it
+                simply, the operating system manages the communication between your software and your hardware. Without
+                the operating system (OS), the software wouldn?t function.</h6>
+
+            <p> Linux is also distributed under an open source license. Open source follows these key tenants:
+            </p>
+            <p>The freedom to run the program, for any purpose.</p>
+            <p>The freedom to study how the program works, and change it to make it do what you wish.</p>
+            <p>The freedom to redistribute copies so you can help your neighbor.</p>
+            <p>The freedom to distribute copies of your modified versions to others.</p>
+            <p>These points are crucial to understanding the community that works together to create the Linux platform.
+                Without a doubt, Linux is an operating system that is ?by the people, for the people?. These tenants are
+                also a main factor in why many people choose Linux. It?s about freedom and freedom of use and freedom of
+                choice.</p>
+        </div>
+    </div>
+
+    <div class="content-card-container">
+        <div class="qt-content">
+            <h4>Qt </h4>
+        </div>
+        <div class="content">
+            <br />
+            <h6>Qt (pronounced as "cute", not "cu-tee") is a cross-platform framework that is usually used as a
+                graphical toolkit, although it is also very helpful in creating CLI applications. It runs on the three
+                major desktop OSes, as well as on mobile OSes, such as Symbian, Nokia Belle, Meego Harmattan, MeeGo or
+                BB10, and on embedded devices. Ports for Android (Necessitas) and iOS are also in development.</h6>
+
+            <p> When first released, Qt used its own paint engine and controls, emulating the look of the different
+                platforms it runs on when it drew its widgets. This made the porting work easier because very few
+                classes in Qt really depended on the target platform; however, this occasionally led to slight
+                discrepancies where that emulation was imperfect. Recent versions of Qt use the native style APIs of the
+                different platforms, on platforms that have a native widget set, to query metrics and draw most
+                controls, and do not suffer from such issues as often.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="left">
+            <h6>Embedded Systems</h6>
+
+            <h6>RTOS</h6>
+
+            <h6>Linux</h6>
+
+            <h6>Qt</h6>
+        </div>
+        <div class="center">
+            <h6>
+                <p>open source project</p>@BWEB2020
+            </h6>
+
+        </div>
+        <div class="right">
+            <p><i class="fa fa-facebook"></i></p>
+            <p><i class="fa fa-linkedin"></i></p>
+            <p><i class="fa fa-youtube"></i></p>
+            <p><i class="fa fa-github"></i></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+<style>
