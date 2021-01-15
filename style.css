@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 html {
   --top-spacing: 200px;
 }
@@ -13,6 +16,58 @@ a {
   text-decoration: none;
   color: black;
 }
+
+
+
+
+
+.main-content{
+  font-family: 'Lato',sans-serif;
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #307952;
+}
+
+ .subscription-page {
+  background-color: #385695;
+  flex-grow: 1;
+  padding:5%;
+  line-height: 1.6rem;
+}
+ .subscription-page .row-0-col-1
+{
+  
+  display: flex;
+  flex-flow: column wrap;
+  padding: 5%;
+}
+.subscription-page .row-0-col-1 h2,h3,p{
+  color: white;
+}
+.subscription-page .row-0-col-1 h3,p,form{
+  padding:0px 5px;
+}
+.subscription-page .row-0-col-1 form input.input-email{
+   width: 50%;
+   height: 30px;
+   border: 0;
+}
+.subscription-page .row-0-col-1 form input.input-submit{
+  width: 20%;
+   height: 30px;
+   border: 0;
+}
+
+
+
+
+
+
+
+
+
 .page-space {
   height: 700px;
 }
