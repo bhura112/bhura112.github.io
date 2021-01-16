@@ -1,8 +1,7 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 html {
-  --top-spacing: 200px;
+  --top-spacing: 100px;
 }
 
 body {
@@ -16,61 +15,140 @@ a {
   text-decoration: none;
   color: black;
 }
+.main-content {
+  font-family: "Lato", sans-serif;
+  max-width: 100%;
+  margin: auto;
+}
+.subscribe-section {
+  max-width: 80%;
+  margin: auto;
+  padding:10vh;
+}
+.subscription-page {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.row-0-col-1{
+  width:40%;
+  padding: 5rem;
+}
+.row-0-col-1 .content{
+  width: 80%;
+  margin: 0px auto;
+  padding: 50px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+.row-0-col-1 .content form .input-email{
+  border:2px solid gray;
+  
+  min-width: 50%;
+  height:  40px;
+}
+.row-0-col-1 .content form .input-submit{
+  border:0;
+  height:  46px;
+  border:2px solid gray;
+  min-width: 30%;
+  margin-left: -5px;
+}
+.row-0-col-2{
+  width: 40%;
+  margin: 0 auto;
+  align-items: center;
 
+}
+.row-0-col-2 object{
+width: 50%;
+margin: 0 auto;
+}
 
+@media only screen and (max-width: 767px) {
+  .subscribe-section {
+    width: 100%;
+    margin:0px auto;
+    padding: 0;
+  }
+  .row-0-col-1{
+    width: 100%;
+    padding:0;
+  }
+  .row-0-col-1 .content{
+  }
 
+  .row-0-col-2{
+    width: 100%;
+  }
+  .row-0-col-2 object{
+    width: 100%;
+  }
+}
 
-
-.main-content{
-  font-family: 'Lato',sans-serif;
+/*.main-content {
+  font-family: "Lato", sans-serif;
   width: 90%;
-  margin: 10px auto;
+  margin: auto;
   display: flex;
   flex-flow: row wrap;
-  background-color: #307952;
 }
-
- .subscription-page {
-  background-color: #385695;
+.subscribe-section {
+  max-width: 100%;
+  margin: auto;
+}
+.subscription-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-grow: 1;
-  padding:5%;
+  padding: 2rem;
   line-height: 1.6rem;
+ 
 }
- .subscription-page .row-0-col-1
-{
-  
+.subscription-page .row-0-col-1 {
   display: flex;
   flex-flow: column wrap;
-  padding: 5%;
+  flex-grow: 1;
+  padding: 3rem;
 }
-.subscription-page .row-0-col-1 h2,h3,p{
+
+.subscription-page .row-0-col-2 {
+}
+
+.subscription-page .row-0-col-2 object {
+}
+.subscription-page .row-0-col-1 h2,
+h3,
+p {
+  color: #1d1f1f;
+}
+.subscription-page .row-0-col-1 h3,
+p,
+form {
+  padding: 10px 5px;
+}
+.subscription-page .row-0-col-1 form{
+}
+.subscription-page .row-0-col-1 form input.input-email {
+  width: 50%;
+  height: 2rem;
+  border: 3px solid green;
+}
+.subscription-page .row-0-col-1 form input.input-submit {
+  width: 30%;
+  height: 2.5rem;
+  margin-left: -4px;
   color: white;
+  font-weight: bold;
+  background-color: green;
+  border: 3px solid green;
 }
-.subscription-page .row-0-col-1 h3,p,form{
-  padding:0px 5px;
-}
-.subscription-page .row-0-col-1 form input.input-email{
-   width: 50%;
-   height: 30px;
-   border: 0;
-}
-.subscription-page .row-0-col-1 form input.input-submit{
-  width: 20%;
-   height: 30px;
-   border: 0;
-}
+*/
 
-
-
-
-
-
-
-
-
-.page-space {
-  height: 700px;
-}
+/*
 .material-item {
   position: fixed;
   background-color: rgb(0, 49, 128);
@@ -90,4 +168,64 @@ a {
 .material-item:hover {
   color: rgb(0, 49, 128);
   background-color: honeydew;
+}
+
+@media only screen and (max-width: 767px) {
+  
+.main-content {
+  width: 100%;
+}
+.subscribe-section{
+  width: 100%;
+}
+  .subscription-page {
+    
+    flex-flow: column wrap;
+  }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-space {
+  height: 700px;
 }

@@ -1,0 +1,77 @@
+#subSvg {
+    padding-bottom: calc(100% * 3 / 4);
+}
+#chip {
+    fill:#fff;
+    background-color: steelblue;
+    animation: pinAnimation 10s infinite linear;
+}
+
+@keyframes bodyAnimation{
+    0%{
+        fill:#fff;
+    }
+    50%{
+        fill:#000;
+    }
+    100%{
+        fill:#fff;
+    }
+}
+#pin1,#pin2,#pin3,#pin4,#pin5{
+   
+  animation: pinAnimation 10s infinite linear;
+}
+
+#pin6,#pin7,#pin8,#pin9,#pin10{
+   
+    animation: pinAnimation 10s infinite linear;
+  }
+
+@keyframes pinAnimation{
+   0%{
+    fill: #000;
+    stroke: #000;
+   }
+   10%{
+    fill:#FFF;
+    stroke: #FFF;
+   }
+   20%{
+    fill:rgb(194, 150, 150);
+    stroke: hsl(0, 25%, 65%);
+   }
+   30%{
+    fill:#FFF;
+    stroke: #FFF;
+   }
+   40%{
+    fill:rgb(194, 150, 150);
+    stroke: hsl(0, 25%, 65%);
+   }
+   50%{
+    fill:#FFF;
+    stroke: #FFF;
+   }
+   60%{
+    fill:rgb(194, 150, 150);
+    stroke: hsl(0, 25%, 65%);
+   }
+   70%{
+    fill:#FFF;
+    stroke: #FFF;
+   }
+   80%{
+    fill:rgb(194, 150, 150);
+    stroke: hsl(0, 25%, 65%);
+   }
+   90%{
+    fill:#FFF;
+    stroke: #FFF;
+   }
+   100%{
+    fill: #000;
+    stroke: #000; 
+   }
+}
+

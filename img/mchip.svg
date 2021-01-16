@@ -1,0 +1,30 @@
+
+
+<svg id="subSvg" width="100%" height="auto" viewBox="0 0 1171 943" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="mchip" filter="url(#filter0_d)">
+<rect id="chip" x="258" width="650" height="913" rx="114" fill="#090909"/>
+<path id="pin1" d="M87.7442 165.941H11V184.765H87.7442V213H154.256H231V133H87.7442V165.941Z" fill="#070707" stroke="black" stroke-width="12"/>
+<path id="pin5" d="M87.7442 725.941H11V744.765H87.7442V773H154.256H231V693H87.7442V725.941Z" fill="#070707" stroke="black" stroke-width="12"/>
+<path id="pin4" d="M87.7442 585.941H11V604.765H87.7442V633H154.256H231V553H87.7442V585.941Z" fill="#070707" stroke="black" stroke-width="12"/>
+<path id="pin3" d="M87.7442 445.941H11V464.765H87.7442V493H154.256H231V413H87.7442V445.941Z" fill="#070707" stroke="black" stroke-width="12"/>
+<path id="pin2" d="M87.7442 305.941H11V324.765H87.7442V353H154.256H231V273H87.7442V305.941Z" fill="#070707" stroke="black" stroke-width="12"/>
+<path id="pin6" d="M1073.26 165.941H1150V184.765H1073.26V213H1006.74H930V133H1073.26V165.941Z" fill="black" stroke="black" stroke-width="12"/>
+<path id="pin10" d="M1073.26 725.941H1150V744.765H1073.26V773H1006.74H930V693H1073.26V725.941Z" fill="black" stroke="black" stroke-width="12"/>
+<path id="pin9" d="M1073.26 585.941H1150V604.765H1073.26V633H1006.74H930V553H1073.26V585.941Z" fill="black" stroke="black" stroke-width="12"/>
+<path id="pin8" d="M1073.26 445.941H1150V464.765H1073.26V493H1006.74H930V413H1073.26V445.941Z" fill="black" stroke="black" stroke-width="12"/>
+<path id="pin7" d="M1073.26 305.941H1150V324.765H1073.26V353H1006.74H930V273H1073.26V305.941Z" fill="black" stroke="black" stroke-width="12"/>
+</g>
+<defs>
+<filter id="filter0_d" x="0" y="0" width="1171" height="943" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dx="5" dy="20"/>
+<feGaussianBlur stdDeviation="5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>
+
+<?xml-stylesheet type="text/css" href="mchip.css" ?>

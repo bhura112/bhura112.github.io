@@ -26,7 +26,7 @@
     align-items: center;
 }
 .header .navbar .container-fluid .navbar-header{
-    padding: 30px;
+    padding:22px 30px;
 } 
 .header .navbar .container-fluid .navbar-header a{
 
@@ -42,7 +42,7 @@
     
 }
 .header .navbar .container-fluid .nav li a{
-    padding: 30px;
+    padding: 22px 30px;
     color: var(--header-fg-color);
     font-weight: bold;
     font-size: var(--header-web-topic-size);
