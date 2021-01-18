@@ -7,7 +7,7 @@
     z-index:9999;
     box-shadow: 0 10px 10px -5px gray;
     
-    --header-bg-color:#303F9F;
+    --header-bg-color:#2980b9;
     --header-fg-color:#FFF;
     --header-web-name-size : 1.4rem;
     --header-web-topic-size : 1.2rem;
@@ -51,7 +51,7 @@
     border-bottom: 1px solid white;
 }
 .header .navbar .container-fluid .nav li a:hover{
-    background-color: #1A237E;
+    background-color: #1e90db;
     font-size: var(--header-web-topic-zoom-size);
 }
 
@@ -76,7 +76,7 @@
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    background-color: #9FA8DA;
+    background-color: #2980b9;
     box-shadow: 0 10px 10px -5px gray;
     animation: burger-menu-anim .5s 1 ease-in;
 }

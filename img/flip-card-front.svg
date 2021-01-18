@@ -1,0 +1,35 @@
+<svg width="299" height="299" viewBox="0 0 299 299" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="flip-card">
+<g id="mchip" filter="url(#filter0_d)">
+<rect id="Rectangle 1" x="106.529" y="84" width="85.6014" height="130" fill="#090909"/>
+<path id="pin1" d="M79.7962 108.248H74V109.785H79.7962V112.091H84.8195H90.6157V105.558H79.7962V108.248Z" fill="#070707" stroke="black" stroke-width="12"/>
+<path id="pin5" d="M79.7962 187.985H74V189.522H79.7962V191.828H84.8195H90.6157V185.295H79.7962V187.985Z" fill="#070707" stroke="black" stroke-width="12"/>
+<path id="pin4" d="M79.7962 168.051H74V169.588H79.7962V171.893H84.8195H90.6157V165.361H79.7962V168.051Z" fill="#070707" stroke="black" stroke-width="12"/>
+<path id="pin3" d="M79.7962 148.116H74V149.653H79.7962V151.959H84.8195H90.6157V145.426H79.7962V148.116Z" fill="#070707" stroke="black" stroke-width="12"/>
+<path id="pin2" d="M79.7962 128.182H74V129.719H79.7962V132.025H84.8195H90.6157V125.492H79.7962V128.182Z" fill="#070707" stroke="black" stroke-width="12"/>
+<path id="pin6" d="M218.204 108.248H224V109.785H218.204V112.091H213.18H207.384V105.558H218.204V108.248Z" fill="black" stroke="black" stroke-width="12"/>
+<path id="pin10" d="M218.204 187.985H224V189.522H218.204V191.828H213.18H207.384V185.295H218.204V187.985Z" fill="black" stroke="black" stroke-width="12"/>
+<path id="pin9" d="M218.204 168.051H224V169.588H218.204V171.893H213.18H207.384V165.361H218.204V168.051Z" fill="black" stroke="black" stroke-width="12"/>
+<path id="pin8" d="M218.204 148.116H224V149.653H218.204V151.959H213.18H207.384V145.426H218.204V148.116Z" fill="black" stroke="black" stroke-width="12"/>
+<path id="pin7" d="M218.204 128.182H224V129.719H218.204V132.025H213.18H207.384V125.492H218.204V128.182Z" fill="black" stroke="black" stroke-width="12"/>
+</g>
+<rect id="Rectangle 1_2" width="299" height="299" rx="44" fill="url(#paint0_diamond)"/>
+</g>
+<defs>
+<filter id="filter0_d" x="63" y="84" width="182" height="160" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dx="5" dy="20"/>
+<feGaussianBlur stdDeviation="5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<radialGradient id="paint0_diamond" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(149 149) rotate(89.809) scale(150.001)">
+<stop offset="0.140821" stop-color="#634364"/>
+<stop offset="0.598958" stop-color="#565163" stop-opacity="0.588013"/>
+<stop offset="0.786458" stop-color="#4D5A63" stop-opacity="0.305461"/>
+<stop offset="1" stop-color="#436462" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
