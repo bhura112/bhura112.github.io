@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@font-face {
+  font-family: eca-fonts;
+  src: url(../global/eca-fonts.ttf);
+}
 html {
-  --top-spacing: 200px;
+  --top-spacing: 150px;
 }
 
 body {
@@ -10,7 +13,12 @@ body {
   margin: var(--top-spacing) auto;
   width: 100%;
   height: 100%;
-  background-color: rgb(233,244,252);
+  background-color: #F9FAFC;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #25265e;
+  font-family: "eca-fonts", "Source Sans Pro", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
 }
 a {
   text-decoration: none;
@@ -18,162 +26,152 @@ a {
 }
 
 .main-section {
-	width: 100%;
-	font-family: "euclid_circular_a","Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
-	margin: auto;
+  width: 100%;
+  margin: auto;
 }
-.page{
-	
-	display: block;
-	margin: auto;
-	margin-top: -100px;;
+.page {
+  display: block;
+  margin: auto;
+  margin-top: -100px;
 }
-.page .page-head{
+.page .page-head {
   position: -webkit-sticky;
   position: sticky;
   top: -1px;
-  padding:0px  10%;
+  padding: 0px 10%;
   display: flex;
   padding-top: calc(1em + 48px);
   flex-flow: row wrap;
-  flex:1 1 auto;
+  flex: 1 1 auto;
   align-items: center;
-  background-color: rgb(233,244,252);
+  background-color: rgb(233, 244, 252);
+  z-index: 1;
 }
 .page-top-content {
-	
-	flex:1 1 auto;
-	display: flex;
-	flex-flow: column wrap;
-	justify-content: space-around;
-	padding-top:40px ;
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  padding-top: 40px;
 }
-.page-top-content h1{
-	flex: 1 0 auto;
-	font-size: 2.9vh;
-	padding: 10px 30px;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-.dec-page-topic-icon {
-	width: 80px !important;
-    height:  80px !important;}
-
-.dec-page-topic-name {
-	animation: page-head-anim .3s 1 linear forwards;
-}
-@keyframes page-head-anim{
-	to{
-		font-size: 1.9vh;
-		padding: 10px 30px !important;
-	}
-}
-.page-topics ul {
-	flex: 1 0 auto;
-	list-style: none;
-	display: flex;
-	flex-wrap: wrap;
-}
-.page-topics ul li {
-	flex:1;
-	border-bottom: .5px solid #999b9d4f;
-}
-.page-topics ul li a{
-  font-size: 1.50vh;
-  font-weight: bold;
+.page-top-content h1 {
+  flex: 1 0 auto;
+  font-size: 2.9vh;
+  padding: 10px 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-bottom:1px ;
 }
-.topic-active{
-	border-bottom: 3px solid #2980B9;
+.dec-page-topic-icon {
+  width: 80px !important;
+  height: 80px !important;
 }
-.page-topics ul li a:hover{
-	color: slategray;
+
+.dec-page-topic-name {
+  animation: page-head-anim 0.3s 1 linear forwards;
 }
+@keyframes page-head-anim {
+  to {
+    font-size: 1.9vh;
+    padding: 10px 30px !important;
+  }
+}
+.page-topics ul {
+  flex: 1 0 auto;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.page-topics ul li {
+  flex: 1;
+  border-bottom: 0.5px solid #999b9d4f;
+}
+.page-topics ul li a {
+  font-size: 1.5vh;
+  font-weight: bold;
+  padding-bottom: 1px;
+}
+.topic-active {
+  border-bottom: 3px solid #2980b9;
+}
+.page-topics ul li a:hover {
+  color: slategray;
+}
+
+/* conetent data */
+
 .page .content {
+  width: 80%;
+  margin: 150px auto;
+  display: flex;
+  background-color: #fff;
+}
+.page .content .content-section {
+  flex-shrink: 1;
+}
+.page .content .content-tab {
+  list-style: none;
+  border: 1px solid #d3dce6;
+  border-radius: 6px;
+  margin: 0;
+  padding: 0;
+}
+.page .content .content-tab li {
+  border-bottom: 1px solid #d3dce6;
+}
+
+.page .content .content-tab li a {
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  color: #25265e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page .content .content-tab li a h3 {
+  flex: 1 0 auto;
+  padding: 0px 30px;
+  width: 40%;
+}
+
+.page .content .content-data {
+	background-color: #FBFBFB;
+	padding: 0px 50px;
+}
+.whatIs {
 	width: 100%;
-	background-color: #FFF;
+	font-weight:lighter;
+	margin: 0px auto;
+	color: #000;
 }
-
-@media only screen and (max-width: 767px) {
-	.page .page-head{
-		flex-flow: column wrap;
-	}
-	.page-topics ul li{
-		padding: 0px 5px;
-	}
+.diag-img{
+	padding: 100px 0px;
 }
-/* Main Content start */
-/* 
-
-
-
 
 
 
 
 @media only screen and (max-width: 767px) {
-	.page {
-		max-width: 100%;
-	}
-	.page-cover img{ display: none;}
-} */
-/*
-.page-top-content {
-	display: flex;
-	flex-flow: column nowrap;
-	background-color: chocolate;
-	flex: 1 0 auto;
-	justify-content: flex-end;
-	
-}
-.page-top-content h1{
-	background-color: rgb(6, 61, 63);
-	flex:1 0 auto;
-}
-
-.page-top-content .page-topics {
-	background-color: cadetblue;
-	flex: 0;
-}
-.page-top-content .page-topics ul{
-	display: flex;
-	flex-flow: row wrap;
-	list-style: none;
-	background-color: burlywood;
+  .page .page-head {
+    flex-flow: column wrap;
+  }
+  .page-top-content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .page-topics ul li {
+    padding: 0px 5px;
+  }
+  .dec-page-topic-icon {
+    display: none;
+  }
+  .page .content .content-tab {
+    display:none;
+  }
 }
 
-.page-top-content .page-topics ul li{
-flex: auto;
-font-size: 20px;
-flex: 1;
-background-color: coral;
-}
-.page-top-content .page-topics ul li a{
-}
 /* Main Content End */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .page-space {
   height: 700px;
@@ -199,103 +197,100 @@ background-color: coral;
   background-color: honeydew;
 }
 
-
-
 .courses-container {
-	
 }
 
 .course {
-	background-color: #fff;
-	border-radius: 10px;
-	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-	display: flex;
-	max-width: 100%;
-	margin: 20px;
-	overflow: hidden;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  max-width: 100%;
+  margin: 20px;
+  overflow: hidden;
   width: 700px;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
 }
 
 .course h6 {
-	opacity: 0.6;
-	margin: 0;
-	letter-spacing: 1px;
-	text-transform: uppercase;
+  opacity: 0.6;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .course h2 {
-	letter-spacing: 1px;
-	margin: 10px 0;
+  letter-spacing: 1px;
+  margin: 10px 0;
 }
 
 .course-preview {
-	background-color:#2980B9;
-	color: #fff;
-	padding: 30px;
-	max-width: 250px;
+  background-color: #2980b9;
+  color: #fff;
+  padding: 30px;
+  max-width: 250px;
 }
 
 .course-preview a {
-	color: #fff;
-	display: inline-block;
-	font-size: 12px;
-	opacity: 0.6;
-	margin-top: 30px;
-	text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: 30px;
+  text-decoration: none;
 }
 
 .course-info {
-	padding: 30px;
-	position: relative;
-	width: 100%;
+  padding: 30px;
+  position: relative;
+  width: 100%;
 }
 
 .progress-container {
-	position: absolute;
-	top: 30px;
-	right: 30px;
-	text-align: right;
-	width: 150px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  text-align: right;
+  width: 150px;
 }
 
 .progress {
-	background-color: #ddd;
-	border-radius: 3px;
-	height: 5px;
-	width: 100%;
+  background-color: #ddd;
+  border-radius: 3px;
+  height: 5px;
+  width: 100%;
 }
 
 .progress::after {
-	border-radius: 3px;
-	background-color:#2980B9;
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 5px;
-	width: 66%;
+  border-radius: 3px;
+  background-color: #2980b9;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 66%;
 }
 
 .progress-text {
-	font-size: 10px;
-	opacity: 0.6;
-	letter-spacing: 1px;
+  font-size: 10px;
+  opacity: 0.6;
+  letter-spacing: 1px;
 }
 
 .btn {
-	background-color:#2980B9;
+  background-color: #2980b9;
   border: 0;
   outline: none;
-	border-radius: 50px;
-	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-	color: #fff;
-	font-size: 16px;
-	padding: 12px 25px;
-	position: absolute;
-	bottom: 30px;
-	right: 30px;
-	letter-spacing: 1px;
+  border-radius: 50px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 25px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  letter-spacing: 1px;
 }
 .btn:hover {
   zoom: 1;
