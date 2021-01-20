@@ -14,7 +14,10 @@ body {
   margin: var(--top-spacing) 0;
   -webkit-font-smoothing: antialiased;
 }
-
+input{
+  font-family: 'eca-fonts',"Lato", sans-serif;
+  font-weight: bold;
+}
 a {
   text-decoration: none;
   color: black;
@@ -22,13 +25,59 @@ a {
 
 .page-content {
   font-family: 'eca-fonts',"Lato", sans-serif;
+  width: 80%;
+  margin: 0px auto;
+  
+}
+.subscription-page {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.row-0-col-1{
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 5%;
+}
+.row-0-col-1 form {
+  background-color: burlywood;
   width: 100%;
 }
+.row-0-col-1 input.input-email{
+  border:0;
+  min-width: 100px;
+  max-width: 100%;
+  height: 30px;
+  
+  border:2px solid #2980b9;
+ outline: none;
+}
 
+.row-0-col-1 input.input-submit{
+  border:0;
+  
+  min-width: 70px;
+  max-width: 100%;
+  height: 36px;
+  border:2px solid #2980b9;
+  color:#FFF;
+  background-color: #2980b9;
+  outline: none;
+  margin-left: -5px;
+}
+.row-0-col-2{
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 5%;
+}
 @media only screen and (max-width: 767px) {
   .page-content {
-    width: 50%;
-    background-color: azure;
+    width: 100%;
+  }
+  .subscription-page {
+    display: flex;
+    flex-flow: column wrap;
   }
 }
 
@@ -65,11 +114,12 @@ a {
 }
 .row-0-col-1 .content form .input-email{
   border:2px solid #2980b9;
+   height:  40px;
+  outline: none;
   min-width: 50%;
   font-weight: bold;
   padding:1px 5px;
-  height:  40px;
-  outline: none;
+ 
 }
 .row-0-col-1 .content form .input-submit{
   border:0;
@@ -221,14 +271,14 @@ margin: 0 auto;
 .page-space {
   height: 700px;
 } */
-
+ /* 
 @media only screen and (max-width: 1024px) {
   .page-content {
       width: 90%;
       margin: auto;
     }
   
-  /* .subscribe-section {
+ .subscribe-section {
     width: 100%;
     padding: 0;
     margin:0px auto;
@@ -237,8 +287,8 @@ margin: 0 auto;
   .row-0-col-1{
     width: 100%;
     padding:0;
-  } */
-}
+  } 
+}*/
 
 /*@media only screen and (max-width: 767px) {
   .page-content {
