@@ -1,4 +1,4 @@
-<svg width="432" height="351" viewBox="0 0 432 351" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="432" height="351" preserveAspectRatio="xMinYMin meet" viewBox="0 0 432 351" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="mchip" filter="url(#filter0_d)">
 <path id="Rectangle 1" d="M97.7428 0H326.013V320.632H97.7428V0Z" fill="#858181"/>
 <path id="pin1" d="M37.9514 58.2761H11V64.8866H37.9514V74.8025H61.3093H88.2608V46.7076H37.9514V58.2761Z" fill="#858181" stroke="#858181" stroke-width="12"/>

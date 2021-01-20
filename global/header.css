@@ -1,17 +1,34 @@
-.header{
-    display: block;
-    background-color: beige;
-    position: fixed;
-    top:0;
-    width: 100%;
-    z-index:9999;
-    box-shadow: 0 10px 10px -5px gray;
-    
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@font-face {
+ font-family: eca-fonts;
+ src: url(../global/eca-fonts.ttf);
+}
+ header {
+     
     --header-bg-color:#2980b9;
     --header-fg-color:#FFF;
+    --header-font-family:'eca-fonts',"Lato", sans-serif;
     --header-web-name-size : 1.4rem;
     --header-web-topic-size : 1.2rem;
     --header-web-topic-zoom-size:1.23rem;
+ }
+
+ .header{
+
+    padding: 0;
+    margin: 0;
+    top:0;
+    border: 0;
+    right: 0;
+    left:0;
+
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index:9999;
+    box-shadow: 0 10px 10px -5px gray;
+
+    font-family: var(--header-font-family);
 }
 .header .navbar {
     background-color: var(--header-bg-color);
@@ -50,6 +67,7 @@
 .header .navbar .container-fluid .nav li.active{
     border-bottom: 1px solid white;
 }
+
 .header .navbar .container-fluid .nav li a:hover{
     background-color: #1e90db;
     font-size: var(--header-web-topic-zoom-size);
@@ -97,4 +115,4 @@
 .burger-menu {
     display:block;
 }
-}
+} 

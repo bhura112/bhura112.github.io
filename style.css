@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+ @font-face {
+  font-family: eca-fonts;
+  src: url(../global/eca-fonts.ttf);
+}
 
 html {
   --top-spacing: 100px;
@@ -7,21 +11,28 @@ html {
 body {
   scroll-padding-top: var(--top-spacing);
 
-  margin: var(--top-spacing) auto;
-  width: 100%;
-  height: 100%;
+  margin: var(--top-spacing) 0;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
+
 a {
   text-decoration: none;
   color: black;
 }
-.main-content {
-  font-family: "Lato", sans-serif;
-  max-width: 100%;
-  margin: auto;
+
+.page-content {
+  font-family: 'eca-fonts',"Lato", sans-serif;
+  width: 100%;
 }
+
+@media only screen and (max-width: 767px) {
+  .page-content {
+    width: 50%;
+    background-color: azure;
+  }
+}
+
+/*
 .subscribe-section {
   max-width: 80%;
   margin: auto;
@@ -81,42 +92,6 @@ a {
 .row-0-col-2 object{
 width: 50%;
 margin: 0 auto;
-}
-@media only screen and (max-width: 1024px) {
-  .subscribe-section {
-    width: 100%;
-    padding: 0;
-    margin:0px auto;
-    
-  }
-  .row-0-col-1{
-    width: 100%;
-    padding:0;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .subscribe-section {
-    width: 100%;
-    padding: 0;
-    margin:0px auto;
-    
-  }
-  .row-0-col-1{
-    width: 100%;
-    padding:0;
-  }
-  .row-0-col-1 .content{
-    width: 100%;
-  }
-
-  .row-0-col-2{
-    width: 100%;
-    margin: 30px auto;
-  }
-  .row-0-col-2 object{
-    width: 100%;
-  }
 }
 .card-section {
   text-align: center;
@@ -199,101 +174,7 @@ margin: 0 auto;
 .flip-card-back a:hover{
   background-color: rgb(71, 71, 66);
 }
-/*.main-content {
-  font-family: "Lato", sans-serif;
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-flow: row wrap;
-}
-.subscribe-section {
-  max-width: 100%;
-  margin: auto;
-}
-.subscription-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-  padding: 2rem;
-  line-height: 1.6rem;
- 
-}
-.subscription-page .row-0-col-1 {
-  display: flex;
-  flex-flow: column wrap;
-  flex-grow: 1;
-  padding: 3rem;
-}
 
-.subscription-page .row-0-col-2 {
-}
-
-.subscription-page .row-0-col-2 object {
-}
-.subscription-page .row-0-col-1 h2,
-h3,
-p {
-  color: #1d1f1f;
-}
-.subscription-page .row-0-col-1 h3,
-p,
-form {
-  padding: 10px 5px;
-}
-.subscription-page .row-0-col-1 form{
-}
-.subscription-page .row-0-col-1 form input.input-email {
-  width: 50%;
-  height: 2rem;
-  border: 3px solid green;
-}
-.subscription-page .row-0-col-1 form input.input-submit {
-  width: 30%;
-  height: 2.5rem;
-  margin-left: -4px;
-  color: white;
-  font-weight: bold;
-  background-color: green;
-  border: 3px solid green;
-}
-*/
-
-/*
-.material-item {
-  position: fixed;
-  background-color: rgb(0, 49, 128);
-  font-weight: bolder;
-  color: white;
-  top: 85%;
-  right: 50px;
-  width: 80px;
-  height: 80px;
-  display: flex;
-  border-radius: 50%;
-  box-shadow: 0 0 10px 5px gray;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.material-item:hover {
-  color: rgb(0, 49, 128);
-  background-color: honeydew;
-}
-
-@media only screen and (max-width: 767px) {
-  
-.main-content {
-  width: 100%;
-}
-.subscribe-section{
-  width: 100%;
-}
-  .subscription-page {
-    
-    flex-flow: column wrap;
-  }
-}*/
 
 
 
@@ -339,4 +220,50 @@ form {
 
 .page-space {
   height: 700px;
+} */
+
+@media only screen and (max-width: 1024px) {
+  .page-content {
+      width: 90%;
+      margin: auto;
+    }
+  
+  /* .subscribe-section {
+    width: 100%;
+    padding: 0;
+    margin:0px auto;
+    
+  }
+  .row-0-col-1{
+    width: 100%;
+    padding:0;
+  } */
 }
+
+/*@media only screen and (max-width: 767px) {
+  .page-content {
+      width: 100%;
+      margin: auto;
+    }
+   .subscribe-section {
+    width: 100%;
+    padding: 0;
+    margin:0px auto;
+    
+  }
+  .row-0-col-1{
+    width: 100%;
+    padding:0;
+  }
+  .row-0-col-1 .content{
+    width: 100%;
+  }
+
+  .row-0-col-2{
+    width: 100%;
+    margin: 30px auto;
+  }
+  .row-0-col-2 object{
+    width: 100%;
+  } 
+}*/
