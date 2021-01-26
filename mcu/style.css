@@ -360,3 +360,41 @@ color: #ababb4;
   zoom: 1;
   background-color: #1d5d88;
 }
+
+.topic-progress {
+  border-top-left-radius: 6px;
+  
+  border-top-right-radius: 6px;
+  background-color: #2980b9;
+  color: #FFF;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.topic-area{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+.topic-area h5{
+
+}
+.topic-area p{
+  font-size: 10px;
+}
+.topic-buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  background-color: #524141;
+  padding: 20px;
+}
+.topic-buttons a{
+  color: #FFF;
+}
+
+.topic-buttons a:hover{
+ color:#e7e7f5;
+}
